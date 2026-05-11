@@ -2,13 +2,13 @@
 # Licensed under the MIT License.
 
 module "azure_region" {
-  source = "github.com/POps-Rox/tf-az-overlays-azregionslookup"
+  source = "github.com/POps-Rox/terraform-az-overlays-azregionslookup"
 
   azure_region = var.azure_region
 }
 
 module "rg" {
-  source = "github.com/POps-Rox/tf-az-overlays-resourcegroup"
+  source = "github.com/POps-Rox/terraform-az-overlays-resourcegroup"
 
   location                = module.azure_region.location_cli
   org_name                = var.org_name

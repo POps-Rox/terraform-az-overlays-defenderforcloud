@@ -15,7 +15,7 @@ resource "azurerm_log_analytics_workspace" "workspace2" {
 
 module "mod_security_center" {
   source = "../.."
-  #source  = "github.com/POps-Rox/tf-az-overlays-defenderforcloud"
+  #source  = "github.com/POps-Rox/terraform-az-overlays-defenderforcloud"
   #version = "x.x.x"
 
   security_center_contact_email = var.contact_email
