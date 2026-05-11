@@ -8,9 +8,9 @@
 
 # Azure Security Center Overlay Terraform Module
 
-[![Changelog](https://img.shields.io/badge/changelog-release-green.svg)](CHANGELOG.md) [![Notice](https://img.shields.io/badge/notice-copyright-yellow.svg)](NOTICE) [![MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE) [![TF Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/azurenoops/overlays-linux-virtualmachine/azurerm/)
+[![Changelog](https://img.shields.io/badge/changelog-release-green.svg)](CHANGELOG.md) [![Notice](https://img.shields.io/badge/notice-copyright-yellow.svg)](NOTICE) [![MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE) [![GitHub](https://img.shields.io/badge/github-POps--Rox-blue.svg)](https://github.com/POps-Rox/terraform-az-overlays-defenderforcloud)
 
-This Overlay terraform module can create an [Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/) and manage related parameters to be used in a [SCCA compliant Network](https://registry.terraform.io/modules/azurenoops/overlays-hubspoke/azurerm/latest).
+This Overlay terraform module can create an [Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/) and manage related parameters to be used in a [SCCA compliant Network](https://github.com/POps-Rox/terraform-az-overlays-hubspoke).
 
 ## SCCA Compliance
 
