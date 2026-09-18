@@ -6,15 +6,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 5.0, < 6.0"
-    }
-    azapi = {
-      source  = "azure/azapi"
-      version = "~> 2.0"
-    }
-    popsrox = {
-      source  = "POps-Rox/azutils"
-      version = "~> 1.0"
+      version = "~> 5.6"
     }
   }
 }
